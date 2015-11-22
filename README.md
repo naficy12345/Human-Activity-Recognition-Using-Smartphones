@@ -17,4 +17,4 @@ To extract only the columns that contain the words "mean" or "std" in their head
 
 In the next section, we add 2 more columns (Activity, Subject) to the merged (X_test, X_train) data set.  We also replace the Activity number by the activity_labels.
 
-At the end we use the melt and dcast functions to group by the data set by Activity and Subject, and use the mean fuction to apply to the rest of the columns per each group. We output the result in Tidy_Data.txt file.
+At the end we use the melt and dcast functions to group by the data set by Activity and Subject, and use the mean function to apply to the rest of the columns per each group. We output the result in Tidy_Data.txt file.
